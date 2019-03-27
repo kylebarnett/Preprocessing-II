@@ -171,33 +171,36 @@ img {
 .header {
   border-bottom: 2px dashed silver;
 }
-.header .main-nav {
+.main-nav {
   display: flex;
-  justify-content: space-between;
-  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  max-width: 1700px;
   padding: 15px;
 }
-.header .main-nav nav {
+.main-nav nav {
   font-size: 18px;
   display: flex;
   width: 25%;
   justify-content: space-around;
 }
-.header .main-nav nav a {
+.main-nav nav a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #212529;
 }
 @media (max-width: 500px) {
-  .header .main-nav {
+  .main-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
-  .header .main-nav h1 {
+  .main-nav h1 {
     text-align: center;
   }
-  .header .main-nav nav {
+  .main-nav nav {
     width: 100%;
     margin-top: 10px;
   }
